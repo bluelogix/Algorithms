@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 import argparse
-# profit = [10, 7, 5, 8, 11, 9]
+
 def find_max_profit(prices):
   max_price = 0
   min_price = prices[0]
@@ -10,7 +10,7 @@ def find_max_profit(prices):
     compare_price = i - min_price
     max_price = max(max_price, compare_price)
   return max_price
-# print(find_max_profit)
+
 
 
 if __name__ == '__main__':
